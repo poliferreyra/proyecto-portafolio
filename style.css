@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header*/
+header {
+  background-color: lightblue;
+}
+nav ul.cont-nav {
+  display: flex;
+  justify-content: end;
+  background-color: lightyellow;
+  gap: 20px;
+  padding: 20px;
+  list-style: none;
+}
+
+/* body section*/
+
+section.cont-main{
+  display: flex; 
+   
+  
+}
+
+div.cont-hello {
+   
+        gap: 20px;
+  background-color: lightpink;
+}
+
+div.cont-img{
+  
+    background-color: lightseagreen;
+}
