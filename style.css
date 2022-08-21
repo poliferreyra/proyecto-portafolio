@@ -2,36 +2,81 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-/* header*/
-header {
-  background-color: lightblue;
-}
-nav ul.cont-nav {
+/* nav */
+
+nav{
+  background-color: lightsalmon;
   display: flex;
-  justify-content: end;
-  background-color: lightyellow;
-  gap: 20px;
   padding: 20px;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  }
+
+ nav ul {
+  background-color: aqua;
+  display: flex;
   list-style: none;
+  text-align: center;
+  }
+
+ nav ul li {
+  padding: 10px;
 }
 
-/* body section*/
+/* body */
 
-section.cont-main{
-  display: flex; 
-   
+section.cont-bio {
+  background-color: rgb(58, 226, 43);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 800px;
   
 }
 
-div.cont-hello {
-   
-        gap: 20px;
-  background-color: lightpink;
+.cont-hola {
+  padding: 30px;
+ 
+  color: blueviolet;
 }
 
-div.cont-img{
-  
-    background-color: lightseagreen;
+h2 {
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: rgb(187, 32, 211);
+}
+
+section.cont-skills {
+  background-color: yellow;
+  width: 1100%;
+  height: 600px;
+}
+
+section.cont-quote {
+  background-color: aquamarine;
+  width: 100%;
+  height: 400px;
+}
+
+section.cont-project {
+  width: 100%;
+  height: 700px;
+  background-color: tomato;
+}
+
+section.cont-contact{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 196, 0);
 }
