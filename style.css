@@ -8,10 +8,12 @@
 /* nav */
 header {
   background-color: rebeccapurple;
+  position:sticky;
+  top:0;
+  width: 100%;
 }
-header nav {
-  background-color: aqua;
-}
+
+
 nav ul {
   background-color: rgb(26, 225, 26);
   width: 100%;
@@ -28,12 +30,24 @@ nav ul li {
 
 section.cont-bio {
   background-color: rgb(229, 57, 26);
-  height: 300px;
+  height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.cont-hola button{
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  
+}
+
+.cont-hola button a{
+  color: antiquewhite;
+  text-decoration: none; /*sacar el subrayado*/
+}
 section.cont-bio h1 {
   margin-bottom: 15px;
 }
@@ -43,8 +57,9 @@ section.cont-bio h2 {
 }
 
 .button-i-do {
-  padding: 30px;
+  padding: 15px;
 }
+
 .cont-img img {
   width: 200px;
   height: 200px;
@@ -53,7 +68,8 @@ section.cont-bio h2 {
 /* section-skills  */
 section.cont-skills {
   background-color: aqua;
-  height: 400px;
+  height: 800px;
+  padding-top: 100px;
 }
 
 section.cont-skills h2 {
@@ -89,7 +105,8 @@ section blockquote p {
 
 section.cont-project {
   background-color: rgb(192, 43, 226);
-  height: 400px;
+  height: 700px;
+  padding: 100px;
 }
 
 section.cont-project h2 {
