@@ -5,108 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Links Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap"
+      rel="stylesheet"/>
+    
+    <!-- Link Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+   
     <title>Portfolio Poli Ferreyra</title>
   </head>
+
   <body>
+    <!--HEADER-->
     <header>
       <nav>
-        <a name="inicio">
         <ul>
           <li>
-            <a href="#hola">HOLA</a>
+            <a class="links" href="#hola">HOLA</a>
           </li>
           <li>
-            <a href="#conocimientos">CONOCIMIENTOS</a>
+            <a class="links" href="#conocimientos">CONOCIMIENTOS</a>
           </li>
           <li>
-            <a href="#proyectos">PROYECTOS</a>
+            <a class="links" href="#proyectos">PROYECTOS</a>
           </li>
           <li>
-            <button><a href="#contacto">CONTACTO</a></button>
+            <a href="#contacto" class="nav-button">CONTACTO</a>
           </li>
         </ul>
-      </a>
       </nav>
     </header>
 
-
     <main>
+      <!--SECTION-BIO-->
       <section class="cont-bio" id="hola">
-        
         <div class="cont-hola">
-          <h1>¡Hola! Soy</h1></a>
+          <h1>¡Hola! Soy</h1>
           <h2>Poli Ferreyra</h2>
-        
-          <p>Desarrolladora, profe en educación especial y yoga</p>
 
-          
-          <button> <a href="#lo-que-hago">LO QUE HAGO</a></button>
+          <p>Desarrolladora, profesional en educación especial y profe yoga</p>
+
+          <button><a href="#proyectos">LO QUE HAGO</a></button>
         </div>
-        
+
         <div class="cont-img">
-          <img src="imagenes/desarrollo-web.jpg" alt="" />
+          <img src="imagenes/www-pana.png" alt="Imagen desarrollo web" />
         </div>
-        
       </section>
-      
 
-
-
-      <section class="cont-skills" id="conocimientos">
+      <!--SECTION-SKILLS-->
+      <section class="section-skills" id="conocimientos">
         <h2>Mis conocimientos</h2>
-      
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          voluptas excepturi hic optio. Unde dolorum fugiat, veniam temporibus
-          odit excepturi.
+        <p class="skills-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          beatae consequatur molestias temporibus at iusto vitae consequuntur
+          sed necessitatibus alias.
         </p>
-
-        <div class="cont-skills-img">
-          <img src="imagenes/html5.png" alt="logo de html5" />
-          <img src="imagenes/css.png" alt="logo de css" />
+        <!-- CONTAINER-BOX-SKILLS -->
+        <div class="cont-skills-i">
+          <div class="cont-i">
+            <i class="fa-brands fa-html5 i-size"></i>
+            <!--genero una nueva clase (i-size) para agrandar el tamaño-->
+            <p>HTML 5</p>
+          </div>
+          <div class="cont-i">
+            <i class="fa-brands fa-css3 i-size"></i>
+            <p>CSS 3</p>
+          </div>
+          <div class="cont-i">
+            <i class="fa-brands fa-git-alt i-size"></i>
+            <p>GIT</p>
+          </div>
+          <div class="cont-i">
+            <i class="fa-brands fa-html5 i-size"></i>
+            <p>HTML 5</p>
+          </div>
+          <div class="cont-i">
+            <i class="fa-brands fa-css3 i-size"></i>
+            <p>CSS 3</p>
+          </div>
+          <div class="cont-i">
+            <i class="fa-brands fa-git-alt i-size"></i>
+            <p>GIT</p>
+          </div>
         </div>
-        
       </section>
-     
-      
+
+      <!--SECTION-QUOTE-->
       <section class="cont-quote">
+        <i class="fa-solid fa-quote-left i-size i-color"></i>
         <blockquote>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minus
-            rem provident autem vero iure quos odit eaque laudantium obcaecati? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis unde ipsum amet commodi non in quo facilis totam quos voluptas nesciunt inventore quaerat velit voluptate consequuntur at, sequi alias cum?"
+            rem provident autem vero iure quos odit eaque laudantium obcaecati?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis unde
+            ipsum amet commodi non in quo facilis totam quos voluptas nesciunt
+            inventore quaerat velit voluptate consequuntur at, sequi alias cum?"
           </p>
-          <br>
-          <p>someone</p>
+          <p class="autor">someone</p>
         </blockquote>
       </section>
 
-      <section class="cont-project" id="lo-que-hago">
-        <h2 id="proyectos">Mis Proyectos</h2></a>
-        
+      <!--SECTION-PROJECT-->
+      <section class="cont-project" id="proyectos">
+        <h2>Mis Proyectos</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda
           sunt voluptatum obcaecati consequatur in harum nobis officia
           repudiandae ab.
         </p>
-
+        <!-- CONTAINER-BOX-PROJECT -->
         <div class="img-project">
-          <img
-            src="imagenes/desarrollo-web.jpg"
-            alt="imagen de presentacion de portafolio"
-          />
-          <img
-            src="imagenes/desarrollo-web.jpg"
-            alt="imagen de presentacion de portafolio"
-          />
-        </div></a>
+          <div>
+            <img src="imagenes/portafolio.png" alt="Portada de portafolio" />
+          </div>
+          <div>
+            <img
+              src="imagenes/generador-memes.png"
+              alt="Portada proyecto generador de memes"/>
+          </div>
+          <div>
+            <img src="imagenes/match-3.png" alt="Portada poryecto Match 3" />
+          </div>
+          <div>
+            <img
+              src="imagenes/desarrollo-web.jpg"
+              alt="imagen de presentacion de portafolio"/>
+          </div>
+          <div>
+            <img
+              src="imagenes/desarrollo-web.jpg"
+              alt="imagen de presentacion de portafolio"/>
+          </div>
+          <div>
+            <img
+              src="imagenes/desarrollo-web.jpg"
+              alt="imagen de presentacion de portafolio"/>
+          </div>
+        </div>
       </section>
 
-      
+      <!--SECTION-CONTACT-->
+      <section class="section-contacto" id="contacto">
+        <div class="cont-contact">
+          <div class="contactame">
+            <h2>Contactame</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+              velit cupiditate suscipit deleniti nam ut, nobis itaque.
+              Doloremque, debitis fugiat?
+            </p>
+            <!-- CONTAINER-LINKS-ICONS -->
+            <div class="cont-links">
+              <div>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <a class="links" href="https://www.linkedin.com/" target="_blank">Poli-Linkedin</a>
+              </div>
 
-      <section class="cont-contact">
-        <a name="contacto"><h2>Contacto</h2></a>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <a class="links" href="mailto:paoferreyra.fl@gmail.com" target="_blank">paoferreyra.fl@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <!-- CONTAINER-FORM -->
+          <div class="escribime">
+            <h2>Escribime</h2>
+            <p>Acá falta agregar el formulario de contacto</p>
+          </div>
+        </div>
       </section>
-      
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <ul class="nav-footer">
+        <li><a href="#hola">HOLA</a></li>
+        <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+        <li><a href="#proyectos">PROYECTOS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+
+      <div class="i-footer">
+        <a href="https://www.linkedin.com/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i></a>
+          
+        <a href="mailto:paoferreyra.fl@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p>Hecho con ❤ por Poli Ferreyra</p>
+    </footer>
   </body>
 </html>

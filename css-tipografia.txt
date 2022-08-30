@@ -1,0 +1,5 @@
+font-family: 'Sansita', sans-serif;
+
+font-family: 'Kaushan Script', cursive;
+
+font-family: 'Sarabun', sans-serif;
