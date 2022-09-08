@@ -8,22 +8,25 @@
     <!-- Links Google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap"
-      rel="stylesheet"/>
-    
+      rel="stylesheet"
+    />
+
     <!-- Link Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
-   
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio Poli Ferreyra</title>
   </head>
 
@@ -55,7 +58,10 @@
           <h1>¡Hola! Soy</h1>
           <h2>Poli Ferreyra</h2>
 
-          <p>Desarrolladora, profesional en educación especial y profe yoga</p>
+          <p>
+            Desarrolladora Fontend, profesional en educación especial y profe
+            yoga
+          </p>
 
           <button><a href="#proyectos">LO QUE HAGO</a></button>
         </div>
@@ -128,31 +134,36 @@
         </p>
         <!-- CONTAINER-BOX-PROJECT -->
         <div class="img-project">
-          <div>
+          <div class="project">
             <img src="imagenes/portafolio.png" alt="Portada de portafolio" />
           </div>
-          <div>
+          <div class="project">
             <img
               src="imagenes/generador-memes.png"
-              alt="Portada proyecto generador de memes"/>
+              alt="Portada proyecto generador de memes"
+            />
           </div>
-          <div>
+          <div class="project"
+          >
             <img src="imagenes/match-3.png" alt="Portada poryecto Match 3" />
           </div>
-          <div>
+          <div class="project">
             <img
               src="imagenes/desarrollo-web.jpg"
-              alt="imagen de presentacion de portafolio"/>
+              alt="imagen de presentacion de portafolio"
+            />
           </div>
-          <div>
+          <div class="project">
             <img
               src="imagenes/desarrollo-web.jpg"
-              alt="imagen de presentacion de portafolio"/>
+              alt="imagen de presentacion de portafolio"
+            />
           </div>
-          <div>
+          <div class="project">
             <img
               src="imagenes/desarrollo-web.jpg"
-              alt="imagen de presentacion de portafolio"/>
+              alt="imagen de presentacion de portafolio"
+            />
           </div>
         </div>
       </section>
@@ -171,19 +182,71 @@
             <div class="cont-links">
               <div>
                 <i class="fa-brands fa-linkedin-in"></i>
-                <a class="links" href="https://www.linkedin.com/" target="_blank">Poli-Linkedin</a>
+                <a
+                  class="links"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  >Poli-Linkedin</a
+                >
               </div>
 
               <div>
                 <i class="fa-solid fa-envelope"></i>
-                <a class="links" href="mailto:paoferreyra.fl@gmail.com" target="_blank">paoferreyra.fl@gmail.com</a>
+                <a
+                  class="links"
+                  href="mailto:paoferreyra.fl@gmail.com"
+                  target="_blank"
+                  >paoferreyra.fl@gmail.com</a
+                >
               </div>
             </div>
           </div>
+
           <!-- CONTAINER-FORM -->
           <div class="escribime">
             <h2>Escribime</h2>
-            <p>Acá falta agregar el formulario de contacto</p>
+
+            <form>
+              <label for="name">Nombre*</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="p ej. Poli"
+              />
+
+              <label for="lastname">Apellido*</label>
+              <input
+                id="lastname"
+                type="text"
+                name="lastname"
+                placeholder="p ej. Ferreyra"
+              />
+              <br /><br />
+
+              <label for="email">Email*</label>
+              <br />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="p ej. poliferreyra@gmail.com"
+              />
+              <br /><br />
+
+              <label for="msj">Mensaje*</label>
+              <br />
+              <textarea
+                id="msj"
+                placeholder="Escribime acá tu mensaje"
+                rows="10"
+                cols="30"
+              ></textarea>
+              <br />
+              <br />
+
+              <input type="submit" id="form-button" value="Enviar" />
+            </form>
           </div>
         </div>
       </section>
@@ -200,10 +263,12 @@
 
       <div class="i-footer">
         <a href="https://www.linkedin.com/" target="_blank">
-          <i class="fa-brands fa-linkedin-in"></i></a>
-          
+          <i class="fa-brands fa-linkedin-in"></i
+        ></a>
+
         <a href="mailto:paoferreyra.fl@gmail.com" target="_blank">
-          <i class="fa-solid fa-envelope"></i></a>
+          <i class="fa-solid fa-envelope"></i
+        ></a>
       </div>
       <p>Hecho con ❤ por Poli Ferreyra</p>
     </footer>
