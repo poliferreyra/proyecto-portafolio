@@ -24,8 +24,24 @@ h2 {
   border: none;
   border-radius: 20px;
   background-color: var(--yellow-color);
-  transition: all 1s;
+  outline: 1px solid var(--green-color);
   transform: scale(1.5);
+}
+/* iconos de contacto */
+.fa-linkedin-in {
+  color: #0077B5; 
+  font-size: 20px;
+  padding: 5px;
+}
+.fa-envelope {
+  color: #F44336;
+  font-size: 20px;
+  padding: 5px;
+}
+.fa-github{
+  color: black;
+  font-size: 20px;
+  padding: 5px;
 }
 
 /* HEADER-NAV */
@@ -51,8 +67,8 @@ nav ul li a {
   border: none;
   border-radius: 20px;
   background-color: var(--yellow-color);
+  outline: 1px solid var(--green-color);
 }
-
 /* SECTION-BIO */
 section.cont-bio {
   min-height: 90vh;
@@ -239,10 +255,6 @@ section.cont-project p {
   display: flex;
   flex-direction: column;
 }
-.cont-links i {
-  padding: 10px;
-  color: var(--green-color);
-}
 .cont-links a {
   text-decoration: none;
   color: black;
@@ -311,22 +323,6 @@ footer {
 .nav-footer a {
   margin: 20px;
   text-decoration: none;
-}
-.fa-linkedin-in {
-  color: var(--green-color);
-  font-size: 20px;
-}
-.fa-envelope {
-  color: var(--green-color);
-  font-size: 20px;
-}
-.fa-brands {
-  padding: 15px;
-  border-radius: 50px;
-}
-.fa-solid {
-  padding: 15px;
-  border-radius: 50px;
 }
 .i-footer i {
   margin: 20px;
