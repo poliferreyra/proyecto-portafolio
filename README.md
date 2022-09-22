@@ -28,7 +28,7 @@ Cabe destacar que el proyecto es totalmente **_responsive design_** con los sigu
 
 - min-width: 1025
 
-## Web Accessibility
+## Accesibilidad web
 
 Es de destacar que el proyecto cuenta con algunas funciones para que el contenido sea accesible para personas que presentas dificultades visuales.
 
