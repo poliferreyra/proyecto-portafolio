@@ -30,7 +30,7 @@ Cabe destacar que el proyecto es totalmente **_responsive design_** con los sigu
 
 ## Accesibilidad web
 
-Es de destacar que el proyecto cuenta con algunas funciones para que el contenido sea accesible para personas que presentas dificultades visuales.
+Es de destacar que el proyecto cuenta con algunas funciones para que el contenido sea accesible para personas que presentan dificultades visuales.
 
 ## Conocimientos aplicados
 
