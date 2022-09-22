@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Sarabun", sans-serif;
   font-weight: bold;
+  scroll-behavior: smooth;
 }
 body {
   background-color: white;
@@ -29,16 +30,16 @@ h2 {
 }
 /* iconos de contacto */
 .fa-linkedin-in {
-  color: #0077B5; 
+  color: #0077b5;
   font-size: 20px;
   padding: 5px;
 }
 .fa-envelope {
-  color: #F44336;
+  color: #f44336;
   font-size: 20px;
   padding: 5px;
 }
-.fa-github{
+.fa-github {
   color: black;
   font-size: 20px;
   padding: 5px;
@@ -56,7 +57,7 @@ nav ul {
   list-style: none;
 }
 nav ul li {
-  padding: 15px;
+    padding: 15px;
 }
 nav ul li a {
   color: black;
@@ -206,20 +207,21 @@ section.cont-project p {
   text-align: center;
   margin-bottom: 40px;
 }
+
 /* IMG - BOX - PROJECT */
 .img-project {
   width: 100%;
   max-height: 2000px;
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
   justify-content: center;
   align-items: center;
 }
-.img-project img {
-  padding: 20px;
-  max-width: 200px;
-  max-height: 200px;
+.img-project img, video{
+  padding: 10px;
+  max-width: 250px;
+  max-height: 250px;
   object-fit: cover;
 }
 
@@ -336,10 +338,10 @@ footer p {
   div.img-project {
     grid-template-columns: repeat(3, auto);
   }
-  div.img-project img {
+  div.img-project img, video {
     padding: 20px;
-    max-width: 270px;
-    max-height: 270px;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: cover;
   }
   .cont-contact {
@@ -354,10 +356,10 @@ footer p {
   div.img-project {
     grid-template-columns: repeat(3, auto);
   }
-  div.img-project img {
+  div.img-project img, video {
     padding: 20px;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: cover;
   }
   .cont-contact {
@@ -452,8 +454,8 @@ footer p {
     font-size: 13px;
   }
   section.cont-bio {
-    padding: 60px, 20px;
-  }
+    padding-top: 40px;
+   }
   section.cont-bio h1 {
     font-size: 30px;
   }

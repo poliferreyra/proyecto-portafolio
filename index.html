@@ -6,10 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
+    <!-- seo on page -->
+    <link rel="canonical" href="https://github.com/poliferreyra" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta
+      name="subject"
+      content="Portfolio con mis conocimientos de lenguajes de programación, proyectos realizados y links de contacto"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#fff95" />
+
+    <!-- geo tags-->
+    <meta name="geo.region" content="AR-B" />
+    <meta name="geo.placename" content="Buenos Aires" />
+    <meta name="geo.position" content="-34.607568;-58.437089" />
+    <!-- en grados decimales DD -->
+    <!-- <meta name="ICBM" content="-34.607568, -58.437089" /> (lei que esta linea se puede omitir porque se usa para fines militares *fuente* https://webartesanal.com/blog/como-geolocalizar-tu-pagina-web-para-aumentar-el-seo-y-las-visitas/) -->
+
+    <!-- Author tags -->
+    <link rel="me" href="mailto:paoferreyra.fl@gmail.com" />
+    <link rel="me" href="sms:+5491145263808" />
+    <link rel="archives" href="https://github.com/poliferreyra" />
+
+    <!-- Social Tags -->
+    <!-- Open Graph data  y Twitter Card data -->
+    <meta property="og:title" content="Portfolio Poli Ferreyra" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/poliferreyra" />
+    <meta property="og:locale" content="AR-B" />
+    <meta property="og:site_name" content="Portfolio Poli Ferreyra" />
+
+    <!--<meta property="og:image" name="twitter:image" content=" http://ejemplo.com/imagen.jpg" /> * colocar https del logo cuando lo tenga * -->
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Portfolio con conocimientos de lenguajes de programación, proyectos realizados y links de contacto"
+    />
+    <meta name="twitter:card" content="summary" />
+
     <!-- favicon para la pestaña de la pagina-->
     <link rel="shortcut icon" href="assets/imagenes/favicon.png" />
 
-    <!-- Links Google fonts -->
+    <!-- Links de Google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap"
       rel="stylesheet"
@@ -22,7 +62,6 @@
       href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap"
       rel="stylesheet"
     />
-
     <!-- Link Font awesome - iconos skills & contact -->
     <link
       rel="stylesheet"
@@ -40,7 +79,13 @@
       <nav>
         <ul>
           <li>
-            <a class="links" href="#hola">HOLA</a>
+            <a
+              tabindex="1"
+              aria-label="Hola.Soy Poli. Este es mi portfolio personal. Soy profesional en educación especial,profe de yoga y proximamente desarrolladora frontend. Te invito a continuar navegando por mi página"
+              class="links"
+              href="#hola"
+              >HOLA</a
+            >
           </li>
           <li>
             <a class="links" href="#conocimientos">CONOCIMIENTOS</a>
@@ -63,8 +108,8 @@
           <h2>Poli Ferreyra</h2>
 
           <p>
-            Desarrolladora Fontend, profesional en educación especial y profe
-            yoga
+            Próxima desarrolladora Frontend, profesional en educación especial y
+            profe yoga
           </p>
 
           <button><a href="#proyectos">LO QUE HAGO</a></button>
@@ -74,6 +119,7 @@
           <img
             src="assets/imagenes/img-bio.png"
             alt="Imagen biografia desarrollo web"
+            title="Imagen de la sección- Biografia"
           />
         </div>
       </section>
@@ -82,9 +128,7 @@
       <section class="section-skills" id="conocimientos">
         <h2>Mis conocimientos</h2>
         <p class="skills-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          beatae consequatur molestias temporibus at iusto vitae consequuntur
-          sed necessitatibus alias.
+          En esta sección encontrarás mis conocimientos de informática 👩‍💻
         </p>
 
         <!-- CONTAINER-BOX-SKILLS -->
@@ -102,6 +146,9 @@
             <i class="fa-brands fa-git-alt i-size"></i>
             <p>GIT</p>
           </div>
+
+          <!-- *para agregar futuro lenguajes aprendidos* -->
+          <!--
           <div class="cont-i">
             <i class="fa-brands fa-html5 i-size"></i>
             <p>HTML 5</p>
@@ -114,6 +161,7 @@
             <i class="fa-brands fa-git-alt i-size"></i>
             <p>GIT</p>
           </div>
+          -->
         </div>
       </section>
 
@@ -122,72 +170,35 @@
         <i class="fa-solid fa-quote-left i-size i-color"></i>
         <blockquote>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minus
-            rem provident autem vero iure quos odit eaque laudantium obcaecati?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis unde
-            ipsum amet commodi non in quo facilis totam quos voluptas nesciunt
-            inventore quaerat velit voluptate consequuntur at, sequi alias cum?"
+            "La fuerza no viene de una capacidad física, viene de una voluntad
+            indomable"
           </p>
-          <p class="autor">someone</p>
+          <p class="autor">Mahatma Gandhi</p>
         </blockquote>
       </section>
 
-      <!--SECTION-PROJECT-->
       <section class="cont-project" id="proyectos">
         <h2>Mis Proyectos</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda
-          sunt voluptatum obcaecati consequatur in harum nobis officia
-          repudiandae ab.
+          En esta sección encontrarás mis proyectos actuales. Te invito a
+          clickear 👆 para verlos.
         </p>
 
-        <!-- CONTAINER-BOX-PROJECT -->
         <div class="img-project">
-          <a href="#">
+          <video
+            src="assets/videos/video-portfolio.mp4"
+            poster="assets/imagenes/Portafolio.png"
+            muted
+            autoplay
+            loop
+          ></video>
+
+          <a href="https://poliferreyra.github.io/proyecto-portafolio/" target="_blank">
             <div class="project">
               <img
                 src="assets/imagenes/Portafolio.png"
                 alt="Portada de proyecto portafolio"
-              />
-            </div>
-          </a>
-          <a href="#">
-            <div class="project">
-              <img
-                src="assets/imagenes/generador-memes.png"
-                alt="Portada proyecto generador de memes"
-              />
-            </div>
-          </a>
-          <a href="#">
-            <div class="project">
-              <img
-                src="assets/imagenes/match-3.png"
-                alt="Portada poryecto Match 3"
-              />
-            </div>
-          </a>
-          <a href="#">
-            <div class="project">
-              <img
-                src="assets/imagenes/desarrollo-web.jpg"
-                alt="imagen Desarrolladora web"
-              />
-            </div>
-          </a>
-          <a href="#">
-            <div class="project">
-              <img
-                src="assets/imagenes/desarrollo-web.jpg"
-                alt="imagen desarrolladora web"
-              />
-            </div>
-          </a>
-          <a href="#">
-            <div class="project">
-              <img
-                src="assets/imagenes/desarrollo-web.jpg"
-                alt="imagen desarrolladora web"
+                title="Imagen de la portado del portfolio"
               />
             </div>
           </a>
@@ -200,9 +211,8 @@
           <div class="contactame">
             <h2>Contactame</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
-              velit cupiditate suscipit deleniti nam ut, nobis itaque.
-              Doloremque, debitis fugiat?
+              Te invito a contactarme a través de mis redes sociales o me podes
+              escribir en el formulario por cualquier duda o consulta.
             </p>
 
             <!-- CONTAINER-LINKS-ICONS -->
@@ -301,7 +311,7 @@
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
-      <p>Hecho con ❤ por Poli Ferreyra</p>
+      <p>Hecho con 💖 por Poli Ferreyra</p>
     </footer>
   </body>
 </html>
