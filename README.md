@@ -40,4 +40,4 @@ Es de destacar que el proyecto cuenta con algunas funciones para que el contenid
 
 ## Los invito a visitar mi página
 
-https://poliferreyra.github.io/proyecto-portafolio/
+[Portfolio Poli Ferreyra](http://https://poliferreyra.github.io/proyecto-portafolio/ "Portfolio Poli Ferreyra")
