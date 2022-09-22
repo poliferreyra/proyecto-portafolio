@@ -72,7 +72,7 @@ nav ul li a {
 }
 /* SECTION-BIO */
 section.cont-bio {
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -172,7 +172,7 @@ section.cont-bio p {
 section.cont-quote {
   background-color: #fff952d7;
   min-height: 50vh;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -229,7 +229,7 @@ section.cont-project p {
 /* contactame */
 .section-contacto {
   min-height: 85vh;
-  padding: 60px 0px;
+  padding: 30px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -454,7 +454,7 @@ footer p {
     font-size: 13px;
   }
   section.cont-bio {
-    padding-top: 40px;
+    padding-top: 30px;
    }
   section.cont-bio h1 {
     font-size: 30px;
@@ -466,7 +466,7 @@ footer p {
     max-height: 230px;
   }
   .section-skills {
-    padding: 60px, 20px;
+     padding: 30px;
   }
   .skills-p {
     max-width: 100%;
