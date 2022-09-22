@@ -47,9 +47,10 @@ h2 {
 
 /* HEADER-NAV */
 header {
-  position: sticky;
-  top: 0;
-}
+  width: 100%;
+  position: fixed;
+  float: right;
+  }
 nav ul {
   background-color: #ff63e586;
   display: flex;
@@ -229,7 +230,7 @@ section.cont-project p {
 /* contactame */
 .section-contacto {
   min-height: 85vh;
-  padding: 30px 0px;
+  padding: 55px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
