@@ -14,7 +14,7 @@ Cabe destacar que el proyecto es totalmente **_responsive design_** con los sigu
 
 ##### Mobile
 
-- min-width: 320px and max-width: 1024px
+- min-width: 320px and max-width: 480px
 
 ##### iPads y tablets
 
